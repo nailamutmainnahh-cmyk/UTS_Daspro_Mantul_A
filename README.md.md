@@ -44,13 +44,18 @@ mata kuliah Dasar Pemrograman.
 
 Alur kerja program secara umum adalah sebagai berikut:
 
-1.  Program dimulai.
-2.  Program menampilkan daftar menu makanan dan harga.
-3.  Pengguna memilih makanan.
-4.  Pengguna memasukkan jumlah makanan yang dipesan.
-5.  Program menentukan harga sesuai pilihan menu.
-6.  Program menghitung total biaya pesanan.
-7.  Program menampilkan detail pesanan dan total pembayaran.
-8.  Program selesai.
+1. Mulai program.
+2. Inisialisasi total harga dan jumlah jenis menu menjadi 0.
+3. Tampilkan daftar menu makanan dan minuman beserta harganya.
+4. Masukkan pilihan menu yang ingin dibeli.
+5. Tentukan nama menu dan harga berdasarkan pilihan pengguna.
+6. Jika menu tersedia, masukkan jumlah item yang dibeli.
+7. Hitung subtotal dengan rumus harga × jumlah item.
+8. Tambahkan subtotal ke total harga dan simpan data menu ke dalam array.
+9. Tanyakan apakah pengguna ingin menambahkan menu lain.
+10. Jika memilih ya, kembali ke daftar menu. Jika memilih tidak, lanjutkan ke proses berikutnya.
+11. Tampilkan struk belanja yang berisi nama menu, harga, jumlah, subtotal, dan total harga.
+12. Tampilkan pesan terima kasih.
+13. Selesai.
 
 ------------------------------------------------------------------------
